@@ -103,10 +103,11 @@ main{
 }
 #section-one{
     margin-top: 70px;
+    width: 50%; 
         
 }
 .players-all{  
-    width: 50%;    
+       
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
@@ -137,5 +138,55 @@ main{
 .player p{
     font-size: 12px;    
 }
+
+/* main section-two style details */
+#section-two{
+    margin-top: 185px;
+    display: flex; 
+    width: 60%; 
+
+}
+.details-info{
+    width: 50%;
+}
+.details-info img{
+    width: 570px;
+    height: 430px;
+}
+.details-info h1{
+    font-size: 48px;
+    font-weight: 700;
+    width: 470px;
+    height: 120px;
+}
+.details-info p{
+    font-size: 16px;    
+    width: 404px;
+    height: 113px;
+}
+/* footer styles details */
+#footer-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 158px;
+}
+.footer-info img{
+    width: 480px;
+    height: 110px;
+}
+.footer-info a{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+}
+.footer-info h3{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
 
 
